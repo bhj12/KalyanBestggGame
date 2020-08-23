@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/PassingRecordID"
+        android:layout_width="318dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:text="Passing Record"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VIPMembershipID"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/VIPMembershipID"
+        android:layout_width="318dp"
+        android:layout_height="67dp"
+        android:text="V.I.P MEMBERSHIP "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MembershipID"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/MembershipID"
+        android:layout_width="318dp"
+        android:layout_height="67dp"
+        android:text="MEMBERSHIP Weekly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KalyanBestGameID"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/KalyanBestGameID"
+        android:layout_width="318dp"
+        android:layout_height="67dp"
+        android:text="KALYAN  BEST GAME FREE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/DisclaimerID"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:text="DISCLAIMER: Viewing This Application is on Your own Risk.All The information shown on Application is based on Astrology and Numerology for Information purpose. We are not associated with any Illegal Matka Business or Gamblers.We  Warn you that Matka Gambling may be forbidden, Banned or Illegal in your Country. We are not responsible for any Issue or Scam. We Respect All Countries Rules and laws. If you are not Agree With our Application Diclaimer Please Quit our Application Right now."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PassingRecordID"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
